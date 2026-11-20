@@ -11,8 +11,8 @@ class MaFenetre(QtWidgets.QWidget):
         fenetre_container = QtWidgets.QWidget()
         layout = QtWidgets.QFormLayout(fenetre_container)
 
-        for i in range(30):  ### utilisation du scroll
-            layout.addRow(f"Champ {i}", QtWidgets.QLineEdit())
+        for i in range(21):  ### utilisation du scroll
+            layout.addRow(f"Test Input {i}", QtWidgets.QLineEdit())
 
         # Zone de scroll
         scroll = QtWidgets.QScrollArea()
