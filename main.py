@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 ## Catalogue PyQt5 branché sur l'API FastAPI d'app-db-config.
 
 import json
