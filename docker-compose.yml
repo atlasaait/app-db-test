@@ -19,7 +19,7 @@ services:
         - CMD
         - python
         - -c
-        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/produits')"
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/produits', 'http://127.0.0.1:8000/root')"
       interval: 30s
       timeout: 5s
       retries: 3

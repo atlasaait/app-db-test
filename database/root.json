@@ -1,8 +1,8 @@
 {
-    "root": [
-        {
-            "welcome" : "welcome",
-            "main page" : "main page"
-        }
-    ]
+  "root": [
+    {
+        "welcome" : "welcome",
+        "main page" : "main page"
+    }
+  ]
 }
