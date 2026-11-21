@@ -6,9 +6,9 @@ app = FastAPI()
 DATA = Path("database/data.json")
 DATA_ROOT = Path("database/root.json")
 
-@app.get("/")
+@app.get("/root")
 def root_page():
-    return json.loads(DATA_ROOT.read_text(encoding="utf-8"))[" "]
+    return json.loads(DATA_ROOT.read_text(encoding="utf-8"))["root"]
 
 @app.get("/produits")
 def liste_produits():
